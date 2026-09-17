@@ -133,6 +133,12 @@
       speedModifier: 2
       useSound:
         path: /Audio/Items/crowbar.ogg
+    - type: MovementSpeedModifier
+      baseWalkSpeed: 0.5 # orignal 2.5
+      baseSprintSpeed: 0.75 # orignal 3.5
+    - type: MovementBodyPart
+      walkSpeed: 0.5
+      sprintSpeed: 0.7
 
 - type: entity
   name: holocarp
